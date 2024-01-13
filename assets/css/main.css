@@ -1,0 +1,47 @@
+
+/* Documents Insertion */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'sans-serif', 'poppins';
+}
+
+html, body{
+    width: 100%;
+}
+
+
+
+:root{
+    --color_1 : rgb(44, 41, 41);
+}
+
+/* ----------------- Header section ------------------- */
+.header_main{
+    width: 100%;
+    padding: 10px 30px;
+    border: 2px solid black;
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+#header .logo_main img{
+    width: 200px;
+}
+
+#header .nav_main ul{
+    list-style: none;
+}
+#header .nav_main ul li a{
+    text-decoration: none;
+    color: ;
+}
